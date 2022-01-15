@@ -11,12 +11,12 @@ public class AppController {
         return "for_all";
     }
 
-    @GetMapping("hr_info")
+    @GetMapping("/hr_info")
     public String getInfoOnlyForHRs() {
         return "for_hr";
     }
 
-    @GetMapping("manager_info")
+    @GetMapping("/manager_info")
     public String getInfoOnlyForManagers() {
         return "for_manager";
     }
